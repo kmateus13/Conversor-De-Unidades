@@ -1,0 +1,237 @@
+@import url('http://fonts.cdnfonts.com/css/roboto');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(0deg, #ffffff, #7ae3e4);
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    color: white;
+    font: normal 40pt "Roboto";
+}
+section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+div.cima{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+div.temperatura{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 240px;
+    width: 250px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #a75ef3;
+    font-family: 'Roboto';
+    border: 1px solid #a75ef3;
+}
+
+div.temperatura input{
+    height: 12%;
+    width: 93%;
+    margin: 4px;
+    background-color: rgba(97, 97, 97, 0.151);
+    border: none;
+    border-bottom: 1px solid #a75ef3;
+}
+
+div.temperatura input:hover{
+    background-color: #a65ef315;
+}
+
+div.temperatura input:focus{
+    border-radius: 2px;
+    outline:1px solid #a75ef3;
+}
+
+div.temperatura button{
+    height: 12%;
+    width: 60%;
+    margin-top: 10px;
+    border: none;
+    background-color: #a75ef3;
+    color: white;
+    font-family: 'Roboto';
+    cursor: pointer;
+}
+
+
+div.moedas{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 240px;
+    width: 250px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #5c99f0;
+    font-family: 'Roboto';
+    border: 1px solid #5c99f0;
+}
+
+div.moedas input{
+    height: 12%;
+    width: 93%;
+    margin: 4px;
+    background-color: rgba(97, 97, 97, 0.151);
+    border: none;
+    border-bottom: 1px solid #5c99f0;
+}
+
+div.moedas input:hover{
+    background-color: #5c9af027;
+}
+
+div.moedas input:focus{
+    border-radius: 2px;
+    outline: 1px solid #5c99f0;
+}
+
+div.moedas button{
+    height: 12%;
+    width: 60%;
+    margin-top: 10px;
+    border: none;
+    background-color: #5c99f0;
+    color: white;
+    font-family: 'Roboto';
+    cursor: pointer;
+}
+
+div.baixo{
+    display: flex;
+    gap: 10px;
+    
+}
+div.distancia{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 240px;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #3bb874;
+    font-family: 'Roboto';
+    border: 1px solid #3bb874;
+}
+
+div.distancia input{
+    height: 12%;
+    width: 93%;
+    margin: 4px;
+    background-color: rgba(97, 97, 97, 0.151);
+    border: none;
+    border-bottom: 1px solid #3bb874;
+}
+
+div.distancia input:hover{
+    background-color: #3bb87317;
+}
+
+div.distancia input:focus{
+    border-radius: 2px;
+    outline: 1px solid #3bb874;
+}
+
+div.distancia button {
+    height: 12%;
+    width: 60%;
+    margin-top: 10px;
+    border: none;
+    background-color: #3bb874;
+    color: white;
+    font-family: 'Roboto';
+    cursor: pointer;
+}
+
+div.tempo{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 240px;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #f77270;
+    font-family: 'Roboto';
+    border: 1px solid #f77270;
+}
+
+div.tempo input{
+    height: 12%;
+    width: 93%;
+    margin: 4px;
+    background-color: rgba(97, 97, 97, 0.151);
+    border: none;
+    border-bottom: 1px solid #f77270;
+}
+
+div.tempo input:hover{
+    background-color: #f7727027;
+}
+
+div.tempo input:focus{
+    border-radius: 2px;
+    outline: 1px solid #f77270;
+}
+
+div.tempo button{
+    height: 12%;
+    width: 60%;
+    margin-top: 10px;
+    border: none;
+    background-color: #f77270;
+    color: white;
+    font-family: 'Roboto';
+    cursor: pointer;
+    
+}
+
+@media only screen and (max-width: 767px) {
+    header{
+        text-align: center;
+        font-size: 28pt;
+        margin: 50px 0px 0px 0px;
+    }
+    body{
+        overflow: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    div.cima{
+        display: flex;
+        flex-direction: column;
+    }
+    div.baixo{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}

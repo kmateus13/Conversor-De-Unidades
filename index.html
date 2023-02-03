@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Unidades</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
+    
+</head>
+<body>
+    <header><b>CONVERSOR DE UNIDADES</b></header>
+    <section>
+        <div class="cima">
+            <div class="temperatura">
+                <b>Conversor de Temperatura <br>°K / °C / °F</b> <br>
+                <input type="text" name="kelvin" id="kelvin" placeholder="  Kelvin (K)" onfocus="resettemperatura()" >
+                <input type="text" name="celsius" id="celsius" placeholder="  Celsius (°C)"  onfocus="resettemperatura()"  >
+                <input type="text" name="fahrenheit" id="fahrenheit" placeholder="  Fahrenheit (°K)"  onfocus="resettemperatura()"  >
+                <button onclick="temperatura()">Converter</button>
+            </div>
+            <div class="moedas">
+                <b>Conversor de Moedas <br> USD / BRL / BTC</b> <br>
+                <input type="text" name="usd" id="usd" placeholder="  USD" onfocus="resetmoedas()" >
+                <input type="text" name="brl" id="brl" placeholder="  BRL" onfocus="resetmoedas()" >
+                <input type="text" name="btc" id="btc" placeholder="  BTC" onfocus="resetmoedas()" >
+                <button onclick="moedas()">Converter</button>
+            </div>
+        </div>
+        <div class="baixo">
+            <div class="distancia">
+                <b>Conversor de Distância <br> Km / M / Cm</b> <br>
+                <input type="text" name="quilometros" id="quilometros" placeholder="  Quilômetros (Km)" onfocus="resetdistancia()" >
+                <input type="text" name="metros" id="metros" placeholder="  Metros (M)" onfocus="resetdistancia()" >
+                <input type="text" name="centimetros" id="centimetros" placeholder="  Centímetros (Cm)" onfocus="resetdistancia()" >
+                <button onclick="distancia()">Converter</button>
+            </div>
+            <div class="tempo">
+                <b>Conversor de Tempo <br> HR / MIN / S</b> <br>
+                <input type="text" name="horas" id="horas" placeholder="  Horas (hr)" onfocus="resettempo()" >
+                <input type="text" name="minutos" id="minutos" placeholder="  Minutos (min)" onfocus="resettempo()" >
+                <input type="text" name="segundos" id="segundos" placeholder="  Segundos (s)" onfocus="resettempo()" >
+                <button onclick="tempo()">Converter</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

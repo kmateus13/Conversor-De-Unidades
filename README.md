@@ -1,6 +1,7 @@
-<h1>Resultados Eleições 2022 - 2° Turno</h1>
+<h1>Conversor de Unidades</h1>
 Este é um projeto simples de conversão de unidades que permite converter temperaturas, moedas, distâncias e tempos. Este projeto foi desenvolvido como parte de um desafio proposto por colegas de estudo, que consistia em replicar um design e garantir que o projeto fosse completamente funcional.
-Para acessar o projeto, clique <a href="https://klisman.github.io/eleicoes-2022/">aqui</a>.
+</br>
+Para acessar o projeto, clique <a href="https://conversordeunidades.netlify.app/">aqui</a>.
 
 <h2>Instalação</h2>
 Não é necessário instalar nada. Basta baixar ou clonar o repositório e abrir o arquivo index.html no seu navegador.
